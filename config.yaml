@@ -1,0 +1,38 @@
+baseurl: http://UselessCalculations.com/
+languageCode: en-us
+title: Useless Calculations
+theme: kiera
+
+# frontmatter:
+#   date: "lastmod"
+
+# enableGitInfo: true
+enableRobotsTXT: true
+metaDataFormat: yaml
+
+paginate: 10
+paginatePath: page
+
+# disqusShortname: your_disqus_shortname
+permalinks:
+  post: '/:year/:month/:day/:slug/'
+  code: '/:slug/'
+taxonomies:
+  tag: tags
+  topic: topics
+
+summaryLength: 30
+enableEmoji: true
+pygmentsCodeFences: true
+
+# disqusShortname: "" #Disqus shortname
+# googleAnalytics: "" #Google Analytics ID
+
+author:
+  name: Adam Haile
+  github: adammhaile
+  twitter: UselessCalculations
+params:
+  tagline: Completely useless mathematical calculations for which I only asked if I could, not if I should.
+
+
