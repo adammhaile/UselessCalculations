@@ -15,7 +15,7 @@ paginatePath: page
 
 # disqusShortname: your_disqus_shortname
 permalinks:
-  post: '/:year/:month/:day/:slug/'
+  posts: '/:year/:month/:slug/'
   code: '/:slug/'
 taxonomies:
   tag: tags

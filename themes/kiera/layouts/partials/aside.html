@@ -3,10 +3,10 @@
         <li>
             <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         </li>
-        
+
         {{ if .Params.categories }}
         <li>
-            Categories: 
+            Categories:
             <em>
                 {{ range $i, $c := .Params.categories }}
                     {{ if $i }}, {{ end }}
@@ -27,6 +27,6 @@
         </li>
         {{ end }}
 
-        <li>{{ .ReadingTime }} min read</li>
+        <!-- <li>{{ .ReadingTime }} min read</li> -->
     </ul>
 </aside>

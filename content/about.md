@@ -1,16 +1,14 @@
 ---
-type: "post"
+title: "About"
+date: 2018-05-31T22:55:41-04:00
 draft: false
-author: "author"
-description: "description"
-keywords: ["key", "words"]
-topics: ["topic 1"]
-tags: ["one", "two"]
-date: "2018-05-31"
-title: About This Stuff
+tags: []
+categories: []
+# slug:
+# description:
 
 menu: "main"
 meta: "false"
 ---
 
-About Me!
+Completely useless mathematical calculations for which I only asked if I could, not if I should.

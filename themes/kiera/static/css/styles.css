@@ -4,6 +4,8 @@ body {
   overflow-x: hidden;
   font-family: 'Overpass', sans-serif;
   color: #333333;
+  /* background-color: #333333; this won't get inverted */
+  /* filter: invert(100%); */
 }
 
 h1,
