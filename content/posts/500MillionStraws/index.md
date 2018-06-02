@@ -8,7 +8,7 @@ categories: []
 # description:
 ---
 
-![Drinking Straws](straws.jpg)
+![Drinking Straws](/posts/500MillionStraws/straws.jpg)
 
 In the last few years, it's been quite common to see the statement that "Americans throw away 500 million straws per day" thrown around. That figure seems to not having any [verifiable backing][reason] and either way I agree that one time use plastic items should go away. But that's not why I'm here. I'm here because I want to visualize what 500 million straws per day is.
 
