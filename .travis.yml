@@ -10,6 +10,7 @@ install:
 
 # Build the website
 script:
+  - chmod +x ./bin/hugo
   - ./bin/hugo
 
 # Deploy to GitHub pages
