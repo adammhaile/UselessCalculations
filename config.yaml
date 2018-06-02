@@ -1,7 +1,7 @@
 baseurl: http://UselessCalculations.com/
 languageCode: en-us
 title: Useless Calculations
-theme: kiera
+theme: uselesscalc
 
 # frontmatter:
 #   date: "lastmod"
@@ -26,13 +26,34 @@ enableEmoji: true
 pygmentsCodeFences: true
 
 # disqusShortname: "" #Disqus shortname
-# googleAnalytics: "" #Google Analytics ID
+googleAnalytics: UA-120239279-1
 
 author:
   name: Adam Haile
   github: adammhaile
-  twitter: UselessCalculations
+  twitter: UselessCalc
 params:
   tagline: Completely useless mathematical calculations for which I only asked if I could, not if I should.
 
 
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
+  instagram:
+    disable: true
+    simple: false
+  speakerDeck:
+    disable: true
+  twitter:
+    disable: false
+    enableDNT: false
+  vimeo:
+    disable: false
+  youtube:
+    disable: false
+    privacyEnhanced: true

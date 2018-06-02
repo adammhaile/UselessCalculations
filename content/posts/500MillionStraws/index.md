@@ -30,12 +30,11 @@ So, we get:
 
 That's about **12.27** inches for all you imperial types.
 
-Ok, so that's **31cm** or **0.31m** per straw and 500 million straws, for a total length of **0.31m * 5x10<sup>8</sup> == 155,000,000m** or **155,000km** or **96,313 miles**. For scale, that is roughly long enough to wrap around the entire Earth, at the equator, **4 times**. That's one long straw!
+Ok, so that's **31cm** or **0.31m** per straw and 500 million straws, for a total length of {{< tex "0.3m \times 5\times10^8 = 155,000,000m">}} which is **155,000km** or **96,313 miles**. For scale, that is roughly long enough to wrap around the entire Earth, at the equator, **4 times**. That's one long straw!
 
 But we need to make that much in a single day. For the sake of the math, we'll use **86,400 seconds** and therefore the required speed is:
 
-**v = 1.55x10<sup>8</sup> / 86,400 sec = 1794 m/s**
-{{< tex display="v = \frac {1.55x10^8m}{86,400sec} = 1794m/s">}}
+{{< tex display="v = \frac {1.55\times10^8m}{86,400sec} = 1794m/s">}}
 
 Punching the above into [Wolfram Alpha][wolfram] comes up with some fascinating comparisons and conversions, but those I found most interesting:
 
@@ -45,15 +44,18 @@ Punching the above into [Wolfram Alpha][wolfram] comes up with some fascinating 
 
 When dealing with speeds that quick it makes me wonder what kind of damage a hypersonic straw could do. A quick survey of various straws on the internet gave me arough average weight of about **13g** per straw. So what would happen if the straw was ejected from this hypothetical hypersonic straw machine, cut to length and then hit a solid object? Kinetic energy is:
 
-**K = mv<sup>2</sup> / 2**
+{{< tex display="K = \frac{mv^2}{2}">}}
 
 So that gives us:
 
-**K = (0.013kg * (1794 m/s)<sup>2</sup>) / 2 = 20.92kj**
+{{< tex display="\frac{(0.013kg \times 1794m/s)^2}{2} = 20.92kJ">}}
 
-Unfortunately for the poor people running this hypothetical hypersonic straw machine, t
+Unfortunately for the poor people running this hypothetical hypersonic straw machine, this is *a lot* of kinetic energy. Not insane or anything, as it's about the same energy as a mere **0.25 milligrams** of TNT. But let's look at it this way; we can see from [this handy table][muzzle_energy] that the energy of a bullet from a 9mm handgun is **494J** or **~0.5kJ**, a mere **2.3%** the energy of our hypersonic straw. In fact, our straw has more energy than every single round on that list with the exception of an anti-tank round weighing in at 10kg!
+
+So, how about we all just stop using straws so that no one need be destroyed by a hypersonic straw?
 
 
 [reason]: http://reason.com/blog/2018/01/25/california-bill-would-criminalize-restau
 [eco]: http://www.ecocycle.org/bestrawfree/faqs
 [wolfram]: http://www.wolframalpha.com/input/?i=1.55e8+meters+%2F+86,400+seconds
+[muzzle_energy]: https://en.wikipedia.org/wiki/Muzzle_energy#Typical_muzzle_energies_of_common_firearms_and_cartridges

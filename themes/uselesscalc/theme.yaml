@@ -1,0 +1,19 @@
+name: UselessCalc
+license: MIT
+description: >-
+  Hugo theme for a simple, math heavy blog. Based on Kiera |
+  http://github.com/avianto/hugo-kiera
+homepage: 'http://UselessCalculations.com'
+tags:
+  - blog
+  - minimal
+  - responsive
+features:
+  - blog
+  - disqus
+  - google-analytics
+  - font-awesome
+min_version: 0.30.2
+author:
+  name: Adam Haile
+  homepage: 'http://UselessCalculations.com'
