@@ -6,8 +6,6 @@ theme: uselesscalc
 # frontmatter:
 #   date: "lastmod"
 
-canonifyURLs: true
-
 # enableGitInfo: true
 enableRobotsTXT: true
 metaDataFormat: yaml
