@@ -8,6 +8,8 @@ categories: []
 # description:
 ---
 
+![Drinking Straws](straws.jpg)
+
 In the last few years, it's been quite common to see the statement that "Americans throw away 500 million straws per day" thrown around. That figure seems to not having any [verifiable backing][reason] and either way I agree that one time use plastic items should go away. But that's not why I'm here. I'm here because I want to visualize what 500 million straws per day is.
 
 [EcoCycle][eco] already tried to do this by comparing it to the capacity of school buses but that's just boring. I'd rather use speed... specifically, if one single machine had to make *all* 500 million straws, per day, how fast would they come out of that machine?
