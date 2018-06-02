@@ -6,6 +6,8 @@
   <title>{{ .Site.Title }}</title>
   {{ partial "meta" . }}
   {{ partial "header_includes" . -}}
+
+  {{ template "_internal/google_analytics_async.html" . }}
 </head>
 
 <body>
