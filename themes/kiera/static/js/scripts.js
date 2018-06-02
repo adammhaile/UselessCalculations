@@ -1,1 +1,1 @@
-// nothing here yet.
+renderMathInElement(document.body);
