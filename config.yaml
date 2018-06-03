@@ -32,8 +32,8 @@ author:
   name: Adam Haile
   github: adammhaile/UselessCalculations
   twitter: UselessCalc
-params:
-  tagline: Completely useless mathematical calculations for which I only asked if I could, not if I should.
+# params:
+#   tagline: Completely useless mathematical calculations for which I only asked if I could, not if I should.
 
 
 privacy:
