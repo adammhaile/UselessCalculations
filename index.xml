@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Useless Calculations</title>
+    <link>https://UselessCalculations.com/</link>
+    <description>Recent content on Useless Calculations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jun 2018 09:42:17 -0400</lastBuildDate>
+    
+	<atom:link href="https://UselessCalculations.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>500 Million Straws</title>
+      <link>https://UselessCalculations.com/2018/06/500-million-straws/</link>
+      <pubDate>Sat, 02 Jun 2018 09:42:17 -0400</pubDate>
+      
+      <guid>https://UselessCalculations.com/2018/06/500-million-straws/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://UselessCalculations.com/posts/500MillionStraws/straws.jpg&#34; alt=&#34;Drinking Straws&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the last few years, it&amp;rsquo;s been quite common to see the statement that &amp;ldquo;Americans throw away 500 million straws per day&amp;rdquo; thrown around. That figure seems to not having any &lt;a href=&#34;http://reason.com/blog/2018/01/25/california-bill-would-criminalize-restau&#34;&gt;verifiable backing&lt;/a&gt; and either way I agree that one time use plastic items should go away. But that&amp;rsquo;s not why I&amp;rsquo;m here. I&amp;rsquo;m here because I want to visualize what 500 million straws per day is.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ecocycle.org/bestrawfree/faqs&#34;&gt;EcoCycle&lt;/a&gt; already tried to do this by comparing it to the capacity of school buses but that&amp;rsquo;s just boring. I&amp;rsquo;d rather use speed&amp;hellip; specifically, if one single machine had to make &lt;em&gt;all&lt;/em&gt; 500 million straws, per day, how fast would they come out of that machine?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://UselessCalculations.com/about/</link>
+      <pubDate>Thu, 31 May 2018 22:55:41 -0400</pubDate>
+      
+      <guid>https://UselessCalculations.com/about/</guid>
+      <description>Completely useless mathematical calculations for which I only asked if I could, not if I should.</description>
+    </item>
+    
+  </channel>
+</rss>

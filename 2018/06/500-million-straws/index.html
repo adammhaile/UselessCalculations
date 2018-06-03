@@ -1,0 +1,261 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>Useless Calculations</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="Adam Haile" />
+  <meta name="generator" content="Hugo 0.41" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js"></script>
+  <noscript>
+    <style>.jsonly { display: none }</style>
+  </noscript>
+
+<script>
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-120239279-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      
+
+      <a href="/"><img class="top_logo" src="/UselessLogoSmall.png" ></img></a>
+
+      
+
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+
+        
+        <li><a href="https://twitter.com/UselessCalc"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          
+        <li><a href="https://github.com/adammhaile/UselessCalculations"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>500 Million Straws</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-06-02T09:42:17-04:00">Jun 2, 2018</time>
+        </li>
+
+        
+
+        
+
+        
+    </ul>
+</aside>
+    
+
+    <p><img src="/posts/500MillionStraws/straws.jpg" alt="Drinking Straws" /></p>
+
+<p>In the last few years, it&rsquo;s been quite common to see the statement that &ldquo;Americans throw away 500 million straws per day&rdquo; thrown around. That figure seems to not having any <a href="http://reason.com/blog/2018/01/25/california-bill-would-criminalize-restau">verifiable backing</a> and either way I agree that one time use plastic items should go away. But that&rsquo;s not why I&rsquo;m here. I&rsquo;m here because I want to visualize what 500 million straws per day is.</p>
+
+<p><a href="http://www.ecocycle.org/bestrawfree/faqs">EcoCycle</a> already tried to do this by comparing it to the capacity of school buses but that&rsquo;s just boring. I&rsquo;d rather use speed&hellip; specifically, if one single machine had to make <em>all</em> 500 million straws, per day, how fast would they come out of that machine?</p>
+
+<p></p>
+
+<p>I know, you&rsquo;re saying &ldquo;That&rsquo;s impossible!&rdquo; or &ldquo;That&rsquo;s insane! No machine could do that!&rdquo;. But in the grand tradition of spheres in a frictionless vacuum, hypotethical science and math is way more fun if you just assume a few things that aren&rsquo;t actually possible. Moving on&hellip;</p>
+
+<p>Since <a href="http://www.ecocycle.org/bestrawfree/faqs">EcoCyle</a> seems to be the main originator of this value, I&rsquo;ll use some of their assumptions. Mainly that an average straw has a volume of <strong>0.75</strong> cubic inches. But because we&rsquo;re all scientists here, we&rsquo;ll just go ahead and call that <strong>~12cm<sup>3</sup></strong>. But we don&rsquo;t actually need volume (of course, the empty center of the straw is included in that volume), we need the length. Most straws are probably around <strong>7mm</strong> in diameter. Volume of a cylinder is:</p>
+
+
+<span class="jsonly">
+     
+        $$V = {\pi}r^{2}h$$
+    
+</span>
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?V%20%3d%20%7b%5cpi%7dr%5e%7b2%7dh" title="V = {\pi}r^{2}h" />
+        </div>
+    
+</noscript>
+
+<p>Therefore the heigh of a cylinder based on the volume is:</p>
+
+
+<span class="jsonly">
+     
+        $$h = \frac{V}{{\pi}r^{2}}$$
+    
+</span>
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?h%20%3d%20%5cfrac%7bV%7d%7b%7b%5cpi%7dr%5e%7b2%7d%7d" title="h = \frac{V}{{\pi}r^{2}}" />
+        </div>
+    
+</noscript>
+
+<p>So, we get:</p>
+
+
+<span class="jsonly">
+     
+        $$h = \frac {12cm^3}{{\pi}\times0.35cm^2} = 31.18cm$$
+    
+</span>
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?h%20%3d%20%5cfrac%20%7b12cm%5e3%7d%7b%7b%5cpi%7d%5ctimes0.35cm%5e2%7d%20%3d%2031.18cm" title="h = \frac {12cm^3}{{\pi}\times0.35cm^2} = 31.18cm" />
+        </div>
+    
+</noscript>
+
+<p>That&rsquo;s about <strong>12.27</strong> inches for all you imperial types.</p>
+
+<p>Ok, so that&rsquo;s <strong>31cm</strong> or <strong>0.31m</strong> per straw and 500 million straws, for a total length of 
+<span class="jsonly">
+                  
+        \(\bold{0.3m \times 5\times10^8 = 155,000,000m}\)
+    
+</span>
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5cbold%7b0.3m%20%5ctimes%205%5ctimes10%5e8%20%3d%20155%2c000%2c000m%7d" title="\bold{0.3m \times 5\times10^8 = 155,000,000m}" />
+    
+</noscript> which is <strong>155,000km</strong> or <strong>96,313 miles</strong>. For scale, that is roughly long enough to wrap around the entire Earth, at the equator, <strong>4 times</strong>. That&rsquo;s one long straw!</p>
+
+<p>But we need to make that much in a single day. For the sake of the math, we&rsquo;ll use <strong>86,400 seconds</strong> and therefore the required speed is:</p>
+
+
+<span class="jsonly">
+     
+        $$v = \frac {1.55\times10^8m}{86,400sec} = 1794m/s$$
+    
+</span>
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?v%20%3d%20%5cfrac%20%7b1.55%5ctimes10%5e8m%7d%7b86%2c400sec%7d%20%3d%201794m%2fs" title="v = \frac {1.55\times10^8m}{86,400sec} = 1794m/s" />
+        </div>
+    
+</noscript>
+
+<p>Punching the above into <a href="http://www.wolframalpha.com/input/?i=1.55e8+meters+%2F+86,400+seconds">Wolfram Alpha</a> comes up with some fascinating comparisons and conversions, but those I found most interesting:</p>
+
+<ul>
+<li><strong>Mach 5.2</strong>: These straws are <em>hypersonic</em>!</li>
+<li><strong>4013 mph</strong> for the imperial users</li>
+<li><strong>0.76 Moon Escape Velocity</strong>: if we only increased our straw usage by <strong>~33%</strong> and produced them on the Moon, they would shoot out of the machine, orbit the moon and slam into the back of the machine at <strong>Mach 7</strong></li>
+</ul>
+
+<p>When dealing with speeds that quick it makes me wonder what kind of damage a hypersonic straw could do. A quick survey of various straws on the internet gave me a rough average weight of about <strong>13g</strong> per straw. So what would happen if the straw was ejected from this hypothetical hypersonic straw machine, cut to length and then hit a solid object? Kinetic energy is:</p>
+
+
+<span class="jsonly">
+     
+        $$K = \frac{mv^2}{2}$$
+    
+</span>
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?K%20%3d%20%5cfrac%7bmv%5e2%7d%7b2%7d" title="K = \frac{mv^2}{2}" />
+        </div>
+    
+</noscript>
+
+<p>So that gives us:</p>
+
+
+<span class="jsonly">
+     
+        $$\frac{(0.013kg \times 1794m/s)^2}{2} = 20.92kJ$$
+    
+</span>
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?%5cfrac%7b%280.013kg%20%5ctimes%201794m%2fs%29%5e2%7d%7b2%7d%20%3d%2020.92kJ" title="\frac{(0.013kg \times 1794m/s)^2}{2} = 20.92kJ" />
+        </div>
+    
+</noscript>
+
+<p>Unfortunately for the poor people running this hypothetical hypersonic straw machine, this is <em>a lot</em> of kinetic energy. Not insane or anything, as it&rsquo;s about the same energy as a mere <strong>0.25 milligrams</strong> of TNT. But let&rsquo;s look at it this way; we can see from <a href="https://en.wikipedia.org/wiki/Muzzle_energy#Typical_muzzle_energies_of_common_firearms_and_cartridges">this handy table</a> that the energy of a bullet from a 9mm handgun is <strong>494J</strong> or <strong>~0.5kJ</strong>, a mere <strong>2.3%</strong> the energy of our hypersonic straw. In fact, our straw has more energy than every single round on that list with the exception of an anti-tank round weighing in at 10kg!</p>
+
+<p>So, how about we all just stop using straws so that no one need be destroyed by a hypersonic straw?</p>
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://UselessCalculations.com/index.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+</body>
+
+</html>
